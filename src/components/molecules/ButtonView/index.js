@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { CircularButton } from 'atoms';
+import { CircularButton, CircularImage } from 'atoms';
+import { IC_IMAGE1 } from 'images';
 
 class ButtonView extends React.Component {
     render() {
@@ -8,6 +9,7 @@ class ButtonView extends React.Component {
             <View style={styles.mainContainer}>
                 <Text>This is ButtonView</Text>
                 <CircularButton title='click' />
+                <CircularImage image={IC_IMAGE1}/>
             </View>
         );
     }

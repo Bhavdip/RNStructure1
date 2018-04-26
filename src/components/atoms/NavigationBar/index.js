@@ -1,10 +1,11 @@
 import React from 'react';
 import { View, Text,StyleSheet } from 'react-native';
+import {NAVIGATION_FONT_SIZE} from 'fonts';
 
 const NavigationBar = ({ title }) => {
     return (
         <View style = {styles.mainContainer}>
-            <Text>{title}</Text>
+            <Text style = {{fontSize:NAVIGATION_FONT_SIZE}}>{title}</Text>
         </View>
     );
 }

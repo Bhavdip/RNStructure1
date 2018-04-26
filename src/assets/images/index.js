@@ -1,0 +1,1 @@
+export const IC_IMAGE1 = require('./img1.jpg');
